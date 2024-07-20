@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Roboto:wght@400;700&family=PT+Serif:wght@400;700&family=Merriweather:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div id="menuButton" class="menu-button"><img src="../img/menu.svg" alt="menu" /></div>
+        <img src="../img/rain_bk3.png" alt="blue brain" class="header-img"/>
+        <div class="header-text">ГОТОВО!</div>
+        <div id="popupMenu" class="popup-menu">
+            <div id="closeButton" class="close-button"><img src="../img/close-icon.svg" alt="close" /></div>
+            <div class="nav-items">
+                <a href="index.html">ГЛАВНАЯ</a>
+                <a href="about.html">ИНФОРМАЦИЯ О ТЕСТЕ</a>
+                <a href="test.html">ПРОЙТИ ТЕСТ</a>
+            </div>
+        </div>
+    </div>
+    <div class="section results">
+        <h2 class="results-h2">ВАШ РЕЗУЛЬТАТ РАССЧИТАН:</h2>
+        <p class="results-p"><span style="text-decoration: underline">Вы относитесь к 3%</span> респондентов, чей уровень интеллекта более чем на 
+            15 пунктов отличается от среднего в большую или меньшую сторону!</p>
+        <h1 class="results-h1">СКОРЕЕ ПОЛУЧИТЕ СВОЙ РЕЗУЛЬТАТ!</h1>
+        <div class="results-descr">В целях защиты персональных данных результат теста, их подробная интерпретация и рекомендации
+             доступны в виде голосового сообщения по звонку с вашего мобильного телефона
+        </div>
+        <div class="results-timer">Звоните скорее, запись доступна всего <span style="font-size: 20px" id="timer">10:00</span> минут</div>
+        <div class="action-button">
+            <img src="../img/MakeCall.svg" alt="phone">
+            <div class="action-button-text" id="fetchButton">Позвонить и прослушать результат</div>
+        </div>
+        <div id="dataDisplay" class="data-display"></div>
+        <div class="footer-text">TERMENI SI CONDITII: ACESTA ESTE UN SERVICIU DE DIVERTISMENT. PRIN FOLOSIREA LUI DECLARATI CA AVETI 18 ANI IMPLINITI, </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
